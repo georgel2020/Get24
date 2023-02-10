@@ -1,19 +1,14 @@
 # Get24
-Simple C++ tool to solve the "Get 24" game. 
+__Simple C++ tool to solve the "Get 24" game.__
 ## Usage
+Each command has two ways to use. 
 - Solve (do not change order)
 ```
 solve 1 2 3 4
+s 1 2 3 4
 ```
 - Solve all (get all solution)
 ```
-solve-all 1 2 3 4
-```
-- Solve for another number (get 25 etc)
-```
-solve-ans 1 2 3 4 25
-```
-- Solve all for another number (get all solution)
-```
-solve-ans-all 1 2 3 4 25
+solveall 1 2 3 4
+sa 1 2 3 4
 ```
